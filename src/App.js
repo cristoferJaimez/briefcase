@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+//CSS
+import "./App.css";
+//Components
+import DataDev from "./components/DataDev.js";
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <DataDev></DataDev>
     </div>
   );
 }
