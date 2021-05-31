@@ -10,7 +10,7 @@ function NavBar() {
             <div className="container">
             <a href="#!" className="brand-logo right deep-purple darken-3 ">  Developer  </a>
             <a href="#!" data-target="menu-responsive" className="sidenav-trigger">
-                <i className="material-icons">menu</i>
+                <i className="material-icons menu">menu</i>
             </a>
 
             <ul className="right hide-on-med-and-down">
