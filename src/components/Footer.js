@@ -22,10 +22,10 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div class="footer-copyright">
-            <div class="container">
+          <div className="footer-copyright">
+            <div className="container">
             © 2021
-            <a class="grey-text text-lighten-4 right" href="#!">social</a>
+            <a className="grey-text text-lighten-4 right" href="#!">social</a>
             </div>
           </div>
         </footer>
