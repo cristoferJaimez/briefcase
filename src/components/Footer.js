@@ -25,7 +25,7 @@ function Footer() {
           <div className="footer-copyright">
             <div className="container">
             © 2021
-            <a className="grey-text text-lighten-4 right" href="#!">social</a>
+            <a href='https://www.freepik.es/vectores/negocios' className="grey-text text-lighten-4 right">Vector de Negocios creado por jcomp - www.freepik.es</a>
             </div>
           </div>
         </footer>
