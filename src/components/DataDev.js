@@ -5,8 +5,9 @@ function DataDev(props) {
       <section className="left dasboard hide-on-med-and-down">
         <div className="dev-img-info z-depth-5 ">
           <span className="title">
-            <br></br>
-            Cristofer Jaimez
+                <div className="subtitle">
+                  Cristofer <strong className="sto">Jaimez</strong> 
+                </div>
           </span>
         </div>
         <ul className="collection">
