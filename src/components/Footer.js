@@ -17,7 +17,7 @@ function Footer() {
                 <ul>
                   <li><a className="grey-text text-lighten-3" href="https://www.facebook.com/CrissTo/">facebook</a></li>
                   <li><a className="grey-text text-lighten-3" href="https://www.instagram.com/cristofer_jaimez/">instagram </a></li>
-                  <li><a className="grey-text text-lighten-3" href="https://www.instagram.com/cristo_arts/">instagram ocio</a></li>
+                  <li><a className="grey-text text-lighten-3" href="https://www.instagram.com/cristo_arts/">instagram leisure</a></li>
                 </ul>
               </div>
             </div>

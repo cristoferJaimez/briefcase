@@ -1,5 +1,7 @@
-.App{
-  background-image: url(./img/Startup2.jpg);
+header {
+  background: url(assets/img/Startup2.jpg)  no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .App-header {
@@ -18,7 +20,7 @@
 
 .Nav {
   position: fixed;
-  background: rgba(0, 0, 0, 0.0);
+  background-color: transparent !important;
   padding: 0px, 20px;
 }
 
