@@ -5,6 +5,12 @@ import {
     faTable,
     faAddressBook
   } from "@fortawesome/free-solid-svg-icons";
+
+  import {
+    faWhatsapp,
+    faFacebook,
+    faInstagram
+  } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -28,10 +34,16 @@ function NavBar() {
       </nav>
 
         <ul className="sidenav" id="menu-responsive">
+          <li className="center-align"><strong>Dev.</strong> Cristofer <strong>Jaimez</strong></li>
           <li><a href="#!" className="profile"> <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> Profile</a></li>
           <li><a href="#!" className="experience"><FontAwesomeIcon icon={faHistory}></FontAwesomeIcon> Experience</a></li>
           <li><a href="#!" className="proyects"> <FontAwesomeIcon icon={faTable}></FontAwesomeIcon> Proyects</a></li>
           <li><a href="#!" className="contacts"> <FontAwesomeIcon icon={faAddressBook}></FontAwesomeIcon> Contacts</a></li>
+          <li className="center-align">Social Network</li>
+          <li><a href="#!" className="contacts"> <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon> WhatSapp</a></li>
+          <li><a href="#!" className="contacts"> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> Facebook</a></li>
+          <li><a href="#!" className="contacts"> <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> Instagram</a></li>
+          <li><a href="#!" className="contacts"> <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>  Other Instagram</a></li>
         </ul>
     </div>
   );
