@@ -28,10 +28,28 @@
   font-family: SVERIGE NORGE;
 }
 
+.line {
+  z-index: 1;
+  border-left: 6px solid green;
+  height: 220px;
+}
+
+.table {
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+}
+.ape {
+  font-family: SVERIGE NORGE;
+}
+
 .devInfo {
+  z-index: 2;
   min-height: 100vh;
-  padding-top: 500px;
-  padding-right: 300px;
+  padding-top: 100px;
+  padding-right: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;

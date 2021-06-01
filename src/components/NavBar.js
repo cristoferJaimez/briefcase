@@ -1,6 +1,13 @@
 import React from "react";
+import {
+    faHistory,
+    faUser,
+    faTable,
+    faAddressBook
+  } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-//import devPhoto from '../img/devPhoto.jpg';
+
 
 function NavBar() {
   return (
@@ -21,9 +28,10 @@ function NavBar() {
       </nav>
 
         <ul className="sidenav" id="menu-responsive">
-                <li><a href="#!">social</a></li>
-                <li><a href="#!">social</a></li>
-                <li><a href="!#">social</a></li>
+          <li><a href="#!" className="profile"> <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> Profile</a></li>
+          <li><a href="#!" className="experience"><FontAwesomeIcon icon={faHistory}></FontAwesomeIcon> Experience</a></li>
+          <li><a href="#!" className="proyects"> <FontAwesomeIcon icon={faTable}></FontAwesomeIcon> Proyects</a></li>
+          <li><a href="#!" className="contacts"> <FontAwesomeIcon icon={faAddressBook}></FontAwesomeIcon> Contacts</a></li>
         </ul>
     </div>
   );
