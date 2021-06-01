@@ -44,14 +44,14 @@
 
 
 .table-mobil {
-  margin-left: 140px;
+  margin-left: 155px;
   background-color: rgba(255, 255, 255, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  width: 100%;
+  width: 220%;
   font-family: "Montserrat", sans-serif;
 }
 
