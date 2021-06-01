@@ -15,9 +15,9 @@ function DataDev(props) {
           <img src={Logo} alt="img"></img>
           <div className="socialNetwoards center-align">
             <a href="#!" className="proyects"> <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon></a> 
-            <a href="#!" className="contacts">  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </a>
-            <a href="#!" className="profile">  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
-            <a href="#!" className="profile">  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> </a>
+            <a href="https://www.facebook.com/CrissTo/" className="contacts">  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </a>
+            <a href="https://www.instagram.com/cristofer_jaimez/" className="profile">  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
+            <a href="https://www.instagram.com/cristo_arts/" className="profile">  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> </a>
 
           </div>
         </div>
