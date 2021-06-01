@@ -16,7 +16,7 @@ function DevInfo() {
   return (
     <div>
       <div className="devInfo">
-        <table className="table hide-on-med-and-down">  
+        <table className="table hide-on-med-and-down striped">  
          <tbody>
           <tr>
             <td>
