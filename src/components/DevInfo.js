@@ -48,15 +48,15 @@ function DevInfo() {
 
         {/*info mobil*/}
 
-        <table className="table-mobil hide-on-large-only">  
+        <table className="table-mobil hide-on-large-only striped">  
          <tbody>
           <tr>
             <td>
-              <div className="line"></div>
+              <div className="line-mobil"></div>
             </td>
             <td>
               <h3>Cristofer <span className="ape">Jaimez</span></h3>
-                <table>
+                <table className="striped">
                     <tbody>
                         <tr>
                             <td><FontAwesomeIcon icon={faPhone} className="contacts" /></td>
