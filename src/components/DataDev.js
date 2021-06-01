@@ -12,7 +12,7 @@ function DataDev(props) {
     <div>
       <section className="left dasboard hide-on-med-and-down">
         <div className="dev-img-info z-depth-5 ">
-          <img src={Logo}></img>
+          <img src={Logo} alt="img"></img>
           <div className="socialNetwoards center-align">
             <a href="#!" className="proyects"> <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon></a> 
             <a href="#!" className="contacts">  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </a>
