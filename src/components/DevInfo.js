@@ -56,21 +56,29 @@ function DevInfo() {
             </td>
             <td>
               <h3>Cristofer <span className="ape">Jaimez</span></h3>
-              <ul>
-                <li>
-                  <FontAwesomeIcon icon={faPhone} className="contacts" /> (+57)
-                  313 8276705
-                </li>
-                <li>  <FontAwesomeIcon icon={faWhatsapp} className="proyects" />  (+57) 320 8404975</li>
-                <li>
-                  <FontAwesomeIcon icon={faEnvelope} className="contacts" />{" "}
-                  jaimez07788@gmail.com
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faMapPin} className="contacts" />{" "}
-                  Bogotá - Colombia
-                </li>
-              </ul>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><FontAwesomeIcon icon={faPhone} className="contacts" /></td>
+                            <td>(+57) 313 8276705</td>
+                        </tr>
+
+                        <tr>
+                            <td><FontAwesomeIcon icon={faWhatsapp} className="proyects" /></td>
+                            <td>(+57) 320 8404975</td>
+                        </tr>
+
+                        <tr>
+                            <td><FontAwesomeIcon icon={faEnvelope} className="contacts" /></td>
+                            <td> jaimez07788@gmail.com</td>
+                        </tr>
+
+                        <tr>
+                            <td><FontAwesomeIcon icon={faMapPin} className="contacts" /></td>
+                            <td>Bogotá - Colombia</td>
+                        </tr>
+                    </tbody>
+                </table>
             </td>
           </tr>
           </tbody>
