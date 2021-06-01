@@ -46,7 +46,7 @@ function NavBar() {
           <li><a href="https://www.instagram.com/cristofer_jaimez/" className="contacts"> <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> Instagram</a></li>
           <li><a href="https://www.instagram.com/cristo_arts/" className="contacts"> <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>  Other Instagram</a></li>
           <li className="center-align">Repositories</li>
-          <li><a href="https://github.com/cristoferJaimez" className="contacts"> <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Other Instagram</a></li>
+          <li><a href="https://github.com/cristoferJaimez" className="contacts"> <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  GitHub</a></li>
 
         </ul>
     </div>
