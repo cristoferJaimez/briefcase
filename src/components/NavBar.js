@@ -9,7 +9,8 @@ import {
   import {
     faWhatsapp,
     faFacebook,
-    faInstagram
+    faInstagram,
+    faGithub
   } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -44,6 +45,9 @@ function NavBar() {
           <li><a href="https://www.facebook.com/CrissTo/" className="contacts"> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> Facebook</a></li>
           <li><a href="https://www.instagram.com/cristofer_jaimez/" className="contacts"> <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> Instagram</a></li>
           <li><a href="https://www.instagram.com/cristo_arts/" className="contacts"> <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>  Other Instagram</a></li>
+          <li className="center-align">Repositories</li>
+          <li><a href="https://github.com/cristoferJaimez" className="contacts"> <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Other Instagram</a></li>
+
         </ul>
     </div>
   );

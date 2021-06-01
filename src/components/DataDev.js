@@ -3,7 +3,8 @@ import Logo from '../assets/img/logo.png';
 import {
   faWhatsapp,
   faFacebook,
-  faInstagram
+  faInstagram,
+  faGithub
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -18,6 +19,7 @@ function DataDev(props) {
             <a href="https://www.facebook.com/CrissTo/" className="contacts">  <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> </a>
             <a href="https://www.instagram.com/cristofer_jaimez/" className="profile">  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon></a>
             <a href="https://www.instagram.com/cristo_arts/" className="profile">  <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon> </a>
+            <a href="https://github.com/cristoferJaimez" className="">  <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon> </a>
 
           </div>
         </div>
