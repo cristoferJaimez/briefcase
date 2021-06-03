@@ -10,12 +10,16 @@ import {
     faWhatsapp
   } from "@fortawesome/free-brands-svg-icons";
 
+
+//import components
+import formContacts from './formContacts.js';
+
 //import devPhoto from '../img/devPhoto.jpg';
 
 function DevInfo() {
   return (
     <div>
-     
+        <formContacts></formContacts>
     </div>
   );
 }
