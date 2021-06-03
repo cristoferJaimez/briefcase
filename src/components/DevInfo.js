@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+/*import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhone,
   faEnvelope,
@@ -9,7 +9,7 @@ import {
 import {
     faWhatsapp
   } from "@fortawesome/free-brands-svg-icons";
-
+*/
 
 //import components
 import formContacts from './formContacts.js';
