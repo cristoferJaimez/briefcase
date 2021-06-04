@@ -1,3 +1,7 @@
+body{
+  font-family: "Montserrat", sans-serif;
+
+}
 .dev-img-info {
   background-color: rgb(86, 57, 133);
 
@@ -28,50 +32,14 @@
   font-family: SVERIGE NORGE;
 }
 
-.line {
-  z-index: 1;
-  border-left: 6px solid green;
-  height: 245px;
-}
-
-.table {
-  background-color: rgba(255, 255, 255, 0.2);
-  display: flex;
-  justify-content: center;
-  width: 50%;
-  font-family: "Montserrat", sans-serif;
-}
 
 
-.line-mobil {
-  z-index: 1;
-  border-left: 6px solid green;
-  height: 350px;
-}
 
 
-.table-mobil {
-  margin-left: 120px;
-  background-color: rgba(255, 255, 255, 0.2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-}
-
-
-.ape {
-  font-family: SVERIGE NORGE;
-}
 
 .devInfo {
-  z-index: 2;
-  min-height: 100vh;
-  padding-top: 100px;
-  padding-right: 200px;
+    min-height: 90vh;
+  padding-top: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,26 +82,31 @@
   margin-top: 30px;
 }
 
-header {
-  background: url(assets/img/Startup2.jpg) no-repeat center;
-  background-size: cover;
-  min-height: 100vh;
-}
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  color: rgb(41, 34, 34);
-}
+
+
 
 .App-link {
   color: #61dafb;
+  font-family: SVERIGE NORGE;
+
 }
 
 .Nav {
   position: fixed;
   background-color: transparent !important;
   padding: 0px, 20px;
+}
+
+
+.linea {
+  border-top: 1px solid black;
+  height: 2px;
+  max-width: 400px;
+  padding: 0;
+  margin: 50px auto 0 auto;
+}
+
+.centrado{
+	text-align: center;
 }

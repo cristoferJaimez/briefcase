@@ -36,10 +36,10 @@ function NavBar() {
 
         <ul className="sidenav" id="menu-responsive">
           <li className="center-align"><strong>Dev.</strong> Cristofer <strong>Jaimez</strong></li>
-          <li><a href="#!" className="profile"> <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> Profile</a></li>
-          <li><a href="#!" className="experience"><FontAwesomeIcon icon={faHistory}></FontAwesomeIcon> Experience</a></li>
-          <li><a href="#!" className="proyects"> <FontAwesomeIcon icon={faTable}></FontAwesomeIcon> Proyects</a></li>
-          <li><a href="#!" className="contacts"> <FontAwesomeIcon icon={faAddressBook}></FontAwesomeIcon> Contacts</a></li>
+          <li><a href="/" className="profile"> <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> Profile</a></li>
+          <li><a href="/Experience" className="experience"><FontAwesomeIcon icon={faHistory}></FontAwesomeIcon> Experience</a></li>
+          <li><a href="/Proyects" className="proyects"> <FontAwesomeIcon icon={faTable}></FontAwesomeIcon> Proyects</a></li>
+          <li><a href="/Contacts" className="contacts"> <FontAwesomeIcon icon={faAddressBook}></FontAwesomeIcon> Contacts</a></li>
           <li className="center-align">Social Network</li>
           <li><a href="https://api.whatsapp.com/send?phone=+573208404975&text=hola,%20qué%20tal?" className="contacts"> <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon> WhatSapp</a></li>
           <li><a href="https://www.facebook.com/CrissTo/" className="contacts"> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> Facebook</a></li>

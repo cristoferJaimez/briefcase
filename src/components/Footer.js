@@ -9,7 +9,6 @@ function Footer() {
          
           <div className="footer-copyright  purple darken-4">
             <div className="container">
-            <a href='https://www.freepik.es/vectores/negocios' className="grey-text text-lighten-4 right">Vector de Negocios creado por jcomp - www.freepik.es</a>
             </div>
           </div>
         </footer>
