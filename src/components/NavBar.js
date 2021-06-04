@@ -15,6 +15,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
+import {BrowserRouter as Routers,  Link} from 'react-router-dom'
+
 
 function NavBar() {
   return (
@@ -33,13 +35,14 @@ function NavBar() {
             </div>
         </div>
       </nav>
-
+    
+   <Routers> 
         <ul className="sidenav" id="menu-responsive">
           <li className="center-align"><strong>Dev.</strong> Cristofer <strong>Jaimez</strong></li>
-          <li><a href="/" className="profile"> <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> Profile</a></li>
-          <li><a href="/Experience" className="experience"><FontAwesomeIcon icon={faHistory}></FontAwesomeIcon> Experience</a></li>
-          <li><a href="/Proyects" className="proyects"> <FontAwesomeIcon icon={faTable}></FontAwesomeIcon> Proyects</a></li>
-          <li><a href="/Contacts" className="contacts"> <FontAwesomeIcon icon={faAddressBook}></FontAwesomeIcon> Contacts</a></li>
+          <li><Link to="/" className="profile"> <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> Profile</Link></li>
+          <li><Link to="/Experience" className="experience"><FontAwesomeIcon icon={faHistory}></FontAwesomeIcon> Experience</Link></li>
+          <li><Link to="/Proyects" className="proyects"> <FontAwesomeIcon icon={faTable}></FontAwesomeIcon> Proyects</Link></li>
+          <li><Link to="/Contacts" className="contacts"> <FontAwesomeIcon icon={faAddressBook}></FontAwesomeIcon> Contacts</Link></li>
           <li className="center-align">Social Network</li>
           <li><a href="https://api.whatsapp.com/send?phone=+573208404975&text=hola,%20qué%20tal?" className="contacts"> <FontAwesomeIcon icon={faWhatsapp}></FontAwesomeIcon> WhatSapp</a></li>
           <li><a href="https://www.facebook.com/CrissTo/" className="contacts"> <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon> Facebook</a></li>
@@ -49,6 +52,8 @@ function NavBar() {
           <li><a href="https://github.com/cristoferJaimez" className="contacts"> <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  GitHub</a></li>
 
         </ul>
+        
+    </Routers>
     </div>
   );
 }
