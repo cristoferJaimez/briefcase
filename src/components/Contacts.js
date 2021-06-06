@@ -9,7 +9,6 @@ function Contacts() {
                   <textarea placeholder="msm"></textarea>
                   <input type="submit" value="Send" className="btn btn-sm" />
               </form>
-
     </div>
   );
 }
